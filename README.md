@@ -1,9 +1,16 @@
-Steganography in C Project Description:- This repository contains an implementation of steganography in C, a technique for hiding information within a digital medium. Steganography is often used to conceal a message within an image or audio file in such a way that it is undetectable to the casual observer. This project focuses on embedding and extracting messages within bitmap images (BMP files).
+Address Book Project is an application written in C language. It keeps track of names and telephone/mobile numbers and e-mail addresses. It is a console based application which uses standard I/O for adding and deleting contact names, phone numbers and e-mail addresses, searching names and associated numbers and email addresses, updating numbers and email addresses, and deleting contacts.
 
-Features:- Image Encoding: Hide a secret message within a BMP image using the least significant bit (LSB) method. Image Decoding: Extract a hidden message from a BMP image. Command-Line Interface: User-friendly command-line interface to encode and decode messages. Error Handling: Robust error handling for invalid inputs and corrupted images. Cross-Platform: Compatible with multiple operating systems including Windows, macOS, and Linux.
+This project will make you implement some important features of C programming which includes command line arguments, input parsing, file operations etc. Since this project is part of the C programming module, it will not use any Abstract Data Type (ADTs) like linked lists, rather you will be using existing C programming features mentioned above. As an advanced level this project can be implemented with ADTs and much more sophisticated search algorithms by achieving much optimal resource usage.
 
-Prerequisites :- A C compiler (GCC recommended) BMP image files for encoding and decoding
+By implementing this project in a hands-on way you will be able to build a firm understanding on the code C programming concepts and how to apply them on a use case like address book.
 
-How It Works : Encoding :- The program reads the BMP image and the secret message. Each character of the message is converted to its binary representation and embedded into the least significant bits of the image pixels. Decoding :- The program reads the BMP image and extracts the least significant bits from the pixels to reconstruct the hidden message.
+Requirement Details :- Here is the list of requirements that your address book should be in a position to handle.
 
-Acknowledgements : Inspiration from various steganography tutorials and resources. BMP image handling based on public domain BMP libraries.
+Add Contact : Add a contact giving username Add phone numbers to the newly added contact Add e-mail addresses to the newly added contact
+
+Search Contact : Search a contact by name. Search contact by phone number. Search contact by e-mail address.
+
+Edit Contact :- Edit by name. Edit contact by phone number. Edit contact by email address.
+Delete contact Edit by name. Edit contact by phone number. Edit contact by email address.
+
+List all contacts : Save the address book. Exit the application.
